@@ -1,11 +1,9 @@
 import React from 'react'
 
-const ProductScreen = () => {
+function ProductScreen() {
   return (
-    <div className='product_screen'>
-        ProductScreen
-    </div>
+    <div>ProductScreen</div>
   )
 }
 
-export default ProductScreen
+export default ProductScreen;

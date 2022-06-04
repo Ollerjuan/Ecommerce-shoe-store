@@ -22,8 +22,8 @@ function App() {
           <Route path="cart/" element={<Cart />} />
           {/* <Route path="Login/" element={<LoginScreen />} /> */}
           <Route path="product/" element={<ProductScreen />} />
-          {/* <Route path="./Product/:id" Component={<ProductScreen />}/>
-          <Route path="CartScreen/" Component={<CartScreen />}/> */}
+          <Route path="./Product/:id" Component={<ProductScreen />}/>
+          {/* <Route path="CartScreen/" Component={<CartScreen />}/>  */}
         </Routes>
     </Router>
   );
