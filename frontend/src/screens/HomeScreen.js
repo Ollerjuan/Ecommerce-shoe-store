@@ -8,6 +8,8 @@ const Home = () => {
        
        <div screen="homescreen_products">
           <Product />
+          <Product />
+          <Product />
           
        </div>
     </div>
