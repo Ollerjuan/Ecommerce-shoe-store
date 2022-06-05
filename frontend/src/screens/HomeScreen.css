@@ -1,3 +1,18 @@
-.rolling{
-    padding: 1.5rem 1rem;
+.car_pic {
+    background-image: url('https://media4.giphy.com/media/clufgbyIA9Q2a23uQF/giphy.gif?cid=790b7611e04d0e493929654d57b878b37a8591eb08a643bb&rid=giphy.gif&ct=g');
+    width: 95%;
+    height: 350px;
+    border: 55px;
+
 }
+
+    .homescreen_products{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+/* .homescreen{
+    background-image: url('');
+} */
