@@ -8,9 +8,12 @@ const Nav = () => {
             <div className='navlogo'>
                 <h3>Elite Shoes</h3>
             </div>
+             
 
             <ul className='nav_links'>
                 <li>
+          
+ 
                     <Link to='./cart' className="cart_link">
                         <i className="cart_symbol"></i>
                         {/* <span className='cart_symbol'></span> */}

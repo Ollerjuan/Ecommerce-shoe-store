@@ -1,13 +1,24 @@
 .banner {
-    background-image: ur('http://s3.nikecdn.com/events-platform/pre-prod/NET_Admin/header/2017-05-20_657_Banner_Blue.jpeg');
+    background-image: url('http://s3.nikecdn.com/events-platform/pre-prod/NET_Admin/header/2017-05-20_657_Banner_Blue.jpeg'), url('https://media2.giphy.com/media/6ApCxBePPSaCKCaLQw/giphy.gif?cid=ecf05e47s0jfogmkst865ip0kiyxhugy7fxozhbh3funpu0r&rid=giphy.gif&ct=g');
     border: 25px solid white;
-    height: 350px;
-    width: 113rem;
+    height: 373px;
+    width: 111.8rem;
+    overflow: hidden;
 }
 .homescreen_products{
     display: grid;
     grid-template-columns: repeat(4, 2fr)
 }
 .Current_list {
-    
+    padding: 2rem;
+    font-family: "Poller One";
+    color: 1px white;
+}
+.bar{
+    font-size: 17px;
+    padding: 10px;
+    padding-right:42px;
+    position: absolute;
+    right: 114px;
+    border-radius: 15px;
 }

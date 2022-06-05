@@ -7,9 +7,14 @@ const Home = () => {
    
   return <div className='homescreen'>
 
-      <img className="banner" src="http://s3.nikecdn.com/events-platform/pre-prod/NET_Admin/header/2017-05-20_657_Banner_Blue.jpeg"/>
+      <img className="banner" alt=''/>
+   
+       <h1 className='Current_list'>Current Shoes for sale
+ 
+       <input className="bar" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search shoes..."></input>
 
-       <h1 className='Current_list'>Current Shoes for sale</h1> 
+       </h1> 
+
        <div className="homescreen_products">
           <Product />
           <Product />

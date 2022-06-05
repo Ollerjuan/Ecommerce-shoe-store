@@ -1,6 +1,6 @@
 .navbar {
     width:100%;
-    background-color: black;
+    background-color: #cfcfcf;
     /* background-image: url("https://media1.giphy.com/media/qGA1tU5VYYvLy/giphy.gif?cid=ecf05e474rpcuzxficfzi927okd879cauivblswcfr8e24ri&rid=giphy.gif&ct=g"); */
     display: flex;
     justify-content: space-between;
@@ -87,3 +87,5 @@
 .nav_links > li {
     padding-left: 1.5rem;
 }
+
+  
