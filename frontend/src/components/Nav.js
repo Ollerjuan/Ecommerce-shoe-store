@@ -19,7 +19,7 @@ const Nav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/">
+                    <Link to="/" className="home">
                         Home
                     </Link>
                 </li>
@@ -27,7 +27,7 @@ const Nav = () => {
                 
 
                 <li>
-                    <Link to='/Login'>
+                    <Link to='/Login' className='logout'>
                         Logout
                     </Link>
                 </li>
