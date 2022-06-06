@@ -27,6 +27,7 @@ function View() {
           <p>
             <button className="button" type="button"> Add to Cart</button>
           </p>
+        
         </div>
     </div>
   </div>

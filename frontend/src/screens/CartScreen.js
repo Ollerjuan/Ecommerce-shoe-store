@@ -1,13 +1,22 @@
 import React from 'react'
-
+import InsideCart from '../Components/InsideCart';
 
 const Cart = () => {
     return <div className="cartscreen">
-    <div className='carttttt'>
-
-    <h2> Shopping Cart</h2>
-    </div>  
-    </div>  
-
+        <div className='cart_left'>
+            <h2> Shopping Cart</h2>
+            
+            <InsideCart />
+        </div>  
+        <div className='cart_right'>
+            <div className='cartinfo'>
+                <p> Subtotal (0) Items</p>
+                <p> 250$</p>
+            </div>
+            <div>
+                <button> Checkout </button>
+            </div>
+        </div>  
+    </div>
 }
 export default Cart;

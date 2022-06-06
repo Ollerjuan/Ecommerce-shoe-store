@@ -10,7 +10,7 @@ function Product() {
         <p className='product_name'> Yeezy triple white</p>
         <p className='shoe_price'>$250.00</p>
 
-        <Link to={`/Productscreen`} className="view_button"> View Product</Link>
+        <Link to={`/Product/${1111}`} className="view_button"> View Product</Link>
         </div>
     </div>
   )
