@@ -9,7 +9,8 @@ import Nav from './Components/Nav';
 
 //screens added
 import Home from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
+// import productScreen from './screens/ProductScreen';
+import View from './screens/ProductScreen';
 import Cart from './screens/CartScreen';
 // import LoginScreen from './screens/LoginScreen';
 
@@ -21,8 +22,8 @@ function App() {
           <Route path="/" element={<Home/>}/>       
           <Route path="cart/" element={<Cart />} />
           {/* <Route path="Login/" element={<LoginScreen />} /> */}
-          <Route path="product/" element={<ProductScreen />} />
-          <Route path="./Product/:id" Component={<ProductScreen />}/>
+          <Route path="productScreen/" element={<View />} />
+          <Route path="./Product/:id" Component={<View />}/>
           {/* <Route path="CartScreen/" Component={<CartScreen />}/>  */}
         </Routes>
     </Router>
