@@ -1,21 +1,52 @@
-.productscreen{
-    max-width: 900px;
-    margin: 1rem auto;
-    display:flex;
+.productscreen {
+    max-width: 1000px;
+    margin: 1rem ;
+    display: flex;
 }
-.left_info{
+.left_screen {
+    flex: 0.8;
+}
+.left_screen > img {
+    margin: 1rem;
+}
+.left_info {
     margin: 1rem;
     flex: 0.4;
-    background: #fff;
+    background-color: white;
     height: fit-content;
     font-size: 0.9rem;
 }
 
-.left_screen > img {
-    margin: 1rem;
-    flex: 0.6;
-}
-.shoe_name {
+.shoe_name{
     font-weight: bold;
-    font-size: 21px;
+    font-size: 18px;
 }
+.left_info > p {
+    padding: .4rem;
+}
+.right_screen{
+    flex:0.2;
+}
+.right_info{
+    width: 250px;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    background: white;
+
+}
+.right_info > p {
+    margin-left: rem;
+    padding: 1rem;
+    border-bottom: 1px solid #969696;
+}
+.button {
+    padding: 10px 46px;
+    background-color: rgb(10, 164, 157);
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(18, 203, 194);
+    color: white;
+}
+

@@ -11,7 +11,7 @@ function View() {
   
       <div className='left_info'>
         <p className='shoe_name'> Yeezy</p>
-        <p className='price'>Price: $250.00</p>
+        <p className='Style'>Style: Triple White </p>
         <p className='shoe_size'>Size: 8</p>
       </div>
     </div>
@@ -25,7 +25,7 @@ function View() {
             Status: <span> In Stock</span>
           </p>
           <p>
-            <button type="button"> Add to Cart</button>
+            <button className="button" type="button"> Add to Cart</button>
           </p>
         </div>
     </div>
