@@ -1,3 +1,21 @@
-/* .homeScreen{
-    background-image: ur('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200');
-} */
+.productscreen{
+    max-width: 900px;
+    margin: 1rem auto;
+    display:flex;
+}
+.left_info{
+    margin: 1rem;
+    flex: 0.4;
+    background: #fff;
+    height: fit-content;
+    font-size: 0.9rem;
+}
+
+.left_screen > img {
+    margin: 1rem;
+    flex: 0.6;
+}
+.shoe_name {
+    font-weight: bold;
+    font-size: 21px;
+}
