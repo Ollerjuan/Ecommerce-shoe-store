@@ -1,0 +1,32 @@
+.cartscreen {
+    display: flex;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+h2{
+    margin-bottom: 2rem;
+}
+.cart_left{
+    margin-right: 1rem;
+
+} 
+.cart_right{
+    flex: 0.3;
+    height: fit-content;
+    margin: 65px;
+    box-shadow: 0 1px 2px black;
+}
+.cart_right div{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 20rem;
+}
+.cartinfo  > p {
+    padding: 8px;
+}
+.buying >  button {
+  padding: 15px 112px;
+  background-color: rgb(119, 197, 119);
+  display: flex;
+  align-items: center;
+}
