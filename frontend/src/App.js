@@ -3,28 +3,26 @@ import { Route } from 'react-router-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Routes } from 'react-router-dom'
 
+
 //components
 import Nav from './Components/Nav';
-// import Login from './Components/Login';
+import Loginbutton from './Components/LoginButton';
 
 //screens added
 import Home from './screens/HomeScreen';
-// import productScreen from './screens/ProductScreen';
 import View from './screens/ProductScreen';
 import Cart from './screens/CartScreen';
-// import LoginScreen from './screens/LoginScreen';
 
 function App() {
   return (
     <Router>
+      <Loginbutton />
       <Nav />
         <Routes>
           <Route path="/" element={<Home/>}/>       
           <Route path="cart/" element={<Cart />} />
-          {/* <Route path="Login/" element={<LoginScreen />} /> */}
           <Route path="productScreen/" element={<View />} />
           <Route path="./Product/:id" Component={<View />}/>
-          {/* <Route path="CartScreen/" Component={<CartScreen />}/>  */}
         </Routes>
     </Router>
   );
