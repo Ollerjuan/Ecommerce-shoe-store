@@ -11,8 +11,11 @@
 .navlogo {
     color: white;
     font-size: 40px;
+    font-weight: bold;
     cursor: pointer;
-}
+    -webkit-text-stroke: .8px  white;
+    -webkit-text-fill-color: rgb(0, 136, 134);
+}   
 
 /* https://css.gg/shopping-cart */
 .cart_symbol {
