@@ -1,4 +1,5 @@
 import React from 'react';
+import './Profile.css';
 import { useAuth0 } from "@auth0/auth0-react";
 
 
@@ -8,7 +9,7 @@ const Profile = () => {
   return (
      isAuthenticated && ( 
      <div>
-         <img src={user.picture} alt={user.name} />
+         <img className='profile_pic' src={user.picture} alt={user.name} />
          <h2>{user.name}</h2>
         
        </div>

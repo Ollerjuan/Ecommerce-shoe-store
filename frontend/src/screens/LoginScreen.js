@@ -3,9 +3,9 @@ import Loginbutton from '../Components/LoginButton';
 
 function Login() {
   return (
-    <div>
-        <Loginbutton/>
-    </div>
+    <>
+        <Loginbutton />
+    </>
   )
 }
 
