@@ -14,6 +14,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import Home from './screens/HomeScreen';
 import View from './screens/ProductScreen';
 import Cart from './screens/CartScreen';
+import Create from './screens/CreatePost'
 // import Login from './screens/LoginScreen';
 // import Profile from './Components/Profile';
 
@@ -32,9 +33,9 @@ function App() {
           <Route path="/" element={<Loginbutton/>} />
           
         }
+        <Route path="CreatePost/" element={<Create />} />
         <Route path="cart/" element={<Cart />} />
-          
-        <Route path="Login/" element={<Home/>} />
+        <Route path="Login/"element={<Home/>} />
           <Route path="productScreen/" element={<View />} />
           <Route path="./Product/:id" Component={<View />}/>
         </Routes>

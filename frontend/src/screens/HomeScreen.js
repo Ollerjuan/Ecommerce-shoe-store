@@ -6,7 +6,6 @@ import Product from '../Components/Product'
 const Home = () => {
    
   return <div className='homescreen'>
-
       <img className="banner" alt=''/>
    
        <h1 className='Current_list'>Current Shoes for sale

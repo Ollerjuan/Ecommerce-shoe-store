@@ -84,6 +84,17 @@
     color: white;
 }
 
+.new_post{
+    background-color: rgb(235, 235, 235);
+    opacity: 1;
+    color: black;
+    padding: 16.6px;
+    border-radius: 8px;
+}
+.new_post:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
 .nav_links{
     display: flex;
     list-style: none;

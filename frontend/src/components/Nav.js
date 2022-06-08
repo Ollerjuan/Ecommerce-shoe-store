@@ -33,15 +33,18 @@ const Nav = () => {
                 
 
                 <li>
-                    {/* <LogoutButton /> */}
+                 
                 <div className='logout'>
                 <LogoutButton />
                 </div>
-                    {/* <Link to='/LogoutButton' className='logout'>
-                        Logout
-                    </Link> */}
+               
                 </li>
-
+                
+                <li>
+                    <Link to="/CreatePost" className="new_post">
+                        Post
+                    </Link>
+                </li>
             </ul>
         </nav>
     )
