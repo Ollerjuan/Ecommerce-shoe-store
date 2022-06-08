@@ -1,6 +1,6 @@
 import './Nav.css';
 import {Link} from 'react-router-dom';
-
+// import Loginbutton from './LoginButton';
 
 const Nav = () => {
     return (
@@ -12,7 +12,7 @@ const Nav = () => {
 
             <ul className='nav_links'>
                 <li>
- 
+                    {/* <Loginbutton /> */}
                     <Link to='./cart' className="cart_link">
                         <i className="cart_symbol"></i>
                         {/* <span className='cart_symbol'></span> */}

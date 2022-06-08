@@ -1,13 +1,12 @@
-// import React from 'react'
+import React from 'react'
+import Loginbutton from '../Components/LoginButton';
 
+function Login() {
+  return (
+    <div>
+        <Loginbutton/>
+    </div>
+  )
+}
 
-// function Login() {
-//   return (
-//     <div>
-  
-//     <div>Login</div>
-//     </div>
-//   )
-// }
-
-// export default Login;
+export default Login;
