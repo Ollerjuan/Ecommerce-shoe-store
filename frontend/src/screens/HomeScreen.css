@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('https://media2.giphy.com/media/6ApCxBePPSaCKCaLQw/giphy.gif?cid=ecf05e47s0jfogmkst865ip0kiyxhugy7fxozhbh3funpu0r&rid=giphy.gif&ct=g'), url('http://s3.nikecdn.com/events-platform/pre-prod/NET_Admin/header/2017-05-20_657_Banner_Blue.jpeg');
+    background-image: url('http://s3.nikecdn.com/events-platform/pre-prod/NET_Admin/header/2017-05-20_657_Banner_Blue.jpeg');
     border: 25px solid white;
     height: 373px;
     width: 1370px;
@@ -7,7 +7,7 @@
 }
 .homescreen_products{
     display: grid;
-    grid-template-columns: repeat(4, 2fr)
+    grid-template-columns: repeat(3, 2fr)
 }
 .Current_list {
     padding: 2rem;
@@ -22,7 +22,7 @@
     right: 114px;
     border-radius: 15px;
 }
-/* @media (max-width: 1232px){
+@media (max-width: 1232px){
     .homescreen_products {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -37,4 +37,4 @@
     .homescreen_products {
         grid-template-columns: repeat(1, 1fr);
     }
-} */
+}

@@ -1,31 +1,41 @@
 const products = [
-    {
-      name: "Sony a6000",
-      imageUrl:
-        "https://www.cameralabs.com/wp-content/uploads/2017/01/Canon5DIV_hero3_4000.jpg",
-      description:
-        "Sony a6000 is an amazing first camera for those who want to get into photography. It is afforadable and has more then enough technology to make any picture look professional",
-      price: 499,
-      countInStock: 3,
-    },
-    {
-      name: "Canon EOS 5D MARK IV",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519183071298-a2962feb14f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      description:
-        "The Canon EOS 5D MARK is very popular camera amoung professional who understand it full capablity in creating master pieces",
-      price: 1300,
-      countInStock: 5,
-    },
-    {
-      name: "Sachtler Video 18FT flowTech Tripod ",
-      imageUrl:
-        "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
-      description:
-        "Very high quality tipod that can withstand rigours wheather",
-      price: 10000,
-      countInStock: 2,
-    },
-  ];
-  
-  module.exports = products;
+  {
+    name: "Yeezy Triple White",
+    imageUrl:
+      "https://images.stockx.com/images/Adidas-Yeezy-Boost-350-V2-Cream-White-1-1.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1606322741",
+    description:
+      "Made by Ye",
+    price: 250.00,
+    countInStock: 3,
+  },
+  {
+    name: "Air Jordan 1 Retro High OG BG UNC",
+    imageUrl:
+      "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/012/871/239/original/32260_01.jpg.jpeg?action=crop&width=2000",
+    description:
+      "",
+    price: 580.00,
+    countInStock: 1,
+  },
+  {
+    name: "Air Force 1 '07 Triple White",
+    imageUrl:
+      "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/048/340/059/original/712867_01.jpg.jpeg?action=crop&width=2000",
+    description:
+      "",
+    price: 110,
+    countInStock: 2,
+  },
+  {
+    name: "Wmns Blazer Mid 77 Vintage White Blacks",
+    imageUrl:
+      "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/033/600/467/original/583880_01.jpg.jpeg?action=crop&width=2000",
+    description:
+      "",
+    price: 110,
+    countInStock: 2,
+  },
+];
+
+
+module.exports = products;

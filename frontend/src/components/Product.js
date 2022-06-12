@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Product.css'
 
+
 function Product() {
   return (
     <div className='product'>
@@ -10,10 +11,13 @@ function Product() {
         <p className='product_name'> Yeezy triple white</p>
         <p className='shoe_price'>$250.00</p>
 
-        <Link to={`/Product/${1111}`} className="view_button"> View Product</Link>
+        <Link to={`./ProductScreen`} className="view_button"> View Product</Link>
+        {/* <Link to={`/screens/ProductScreen/${11}`} className="info__button"> Viewsss </Link> */}
         </div>
+
     </div>
+
   )
 }
 
-export default Product
+export default Product;

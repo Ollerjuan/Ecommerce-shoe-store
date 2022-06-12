@@ -1,10 +1,14 @@
- import './HomeScreen.css'
+import './HomeScreen.css'
 import React from 'react'
 import Product from '../Components/Product'
+import Product1 from '../Components/product1'
+
 
 
 const Home = () => {
    
+
+
   return <div className='homescreen'>
       <img className="banner" alt=''/>
    
@@ -15,12 +19,15 @@ const Home = () => {
        </h1> 
 
        <div className="homescreen_products">
+         <Product1 />
+          <Product />
+          <Product /> 
           <Product />
           <Product />
           <Product />
           <Product />
-          <Product />
-          <Product />
+      
+   
           
        </div>
  
@@ -30,3 +37,7 @@ const Home = () => {
 }
 
 export default Home;
+
+
+
+

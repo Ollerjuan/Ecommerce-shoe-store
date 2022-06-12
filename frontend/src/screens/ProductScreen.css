@@ -1,7 +1,11 @@
 .productscreen {
-    max-width: 1000px;
+    max-width: 9000px;
     margin: 1rem ;
     display: flex;
+}
+.picture{
+    width: 600px;
+
 }
 .left_screen {
     flex: 0.8;

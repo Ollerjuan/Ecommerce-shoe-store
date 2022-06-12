@@ -5,7 +5,6 @@ import './LoginScreen.css';
 function Login() {
   return (
       <>
-            
         <Loginbutton />
         <div>
       <h1> Welcome to </h1>

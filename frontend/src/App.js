@@ -7,8 +7,9 @@ import { Routes } from 'react-router-dom'
 //components
 import Nav from './Components/Nav';
 import Loginbutton from './Components/LoginButton';
-// import LogoutButton from './Components/LogoutButton';
 import { useAuth0 } from '@auth0/auth0-react';
+
+
 
 //screens added
 import Home from './screens/HomeScreen';
@@ -24,15 +25,13 @@ function App() {
   return (
     <Router>
       <Nav />
-        {/* <Profile /> */}
-        {/* <LogoutButton /> */}
         <Routes>
           { isAuthenticated ? 
           <Route path="/" element={<Home/>} /> 
-          : 
+           :  
           <Route path="/" element={<Loginbutton/>} />
           
-        }
+         }       
         <Route path="CreatePost/" element={<Create />} />
         <Route path="cart/" element={<Cart />} />
         <Route path="Login/"element={<Home/>} />

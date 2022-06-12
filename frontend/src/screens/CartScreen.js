@@ -3,10 +3,14 @@ import InsideCart from '../Components/InsideCart';
 import './CartScreen.css';
 
 const Cart = () => {
+
+
     return <div className="cartscreen">
         <div className='cart_left'>
             <h2> Shopping Cart</h2>
 
+            <InsideCart />
+            <InsideCart />
             <InsideCart />
         </div>  
         <div className='cart_right'>

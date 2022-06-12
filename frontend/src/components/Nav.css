@@ -13,8 +13,8 @@
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    -webkit-text-stroke: .8px  white;
-    -webkit-text-fill-color: rgb(0, 136, 134);
+    -webkit-text-stroke: 1px  rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
 }   
 
 /* https://css.gg/shopping-cart */
