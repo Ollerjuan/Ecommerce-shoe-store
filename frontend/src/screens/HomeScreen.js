@@ -24,8 +24,7 @@ const Home = () => {
           <Product /> 
           <Product />
           <Product />
-          <Product />
-          <Product />
+        
       
    
           
